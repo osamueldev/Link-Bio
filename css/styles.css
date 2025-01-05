@@ -26,7 +26,7 @@ a {
 
 /* Variaveis Globais*/
 :root {
-    --color-destaque: #5e0ddf;
+    --color-destaque: #449dd8;
     --color-black: #101010;
     --color-white: #fafafa;
 }
@@ -111,6 +111,44 @@ a {
     animation: rotate 5s linear infinite;
 }
 
+.skills-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-icons i {
+    color: #fff;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+}
+
+.skills-icons i:hover {
+    cursor: pointer;
+}
+
+.skills-icons .fa-html5:hover {
+    color: #e34f26;
+}
+
+.skills-icons .fa-css3-alt:hover {
+    color: #1572b6;
+}
+
+.skills-icons .fa-js:hover {
+    color: #f7df1e;
+}
+
+.skills-icons .fa-github:hover {
+    color: #181717;
+}
+
+.skills-icons .fa-wordpress:hover {
+    color: #21759b;
+}
+
+
 /* WIDGET 2: Informações CTA2 */
 .widget2 {
     width: 100%;
@@ -188,7 +226,7 @@ a {
 .img-site {
     width: 100%;
     height: 100px;
-    background-image: url(/image/site.png);
+    background-image: url(/image/pimorabio.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -232,18 +270,18 @@ a {
     transition: color 0.3s;
 }
 
-.redes-sociais .instagram:hover i {
-    color: #E1306C;
+.redes-sociais .linkedin:hover i {
+    color: #2635b8;
     transition: color 0.3s;
 }
 
-.redes-sociais .spotify:hover i {
+.redes-sociais .whatsapp:hover i {
     color: #4add06;
     transition: color 0.3s;
 }
 
-.redes-sociais .mail:hover i {
-    color: #808080;
+.redes-sociais .github:hover i {
+    color: #4b4a4a;
     transition: color 0.3s;
 }
 
